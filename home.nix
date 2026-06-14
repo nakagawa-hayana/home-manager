@@ -29,6 +29,8 @@
     pkgs.starship
     pkgs.zellij
     pkgs.helix
+    pkgs.lsd
+    pkgs.direnv
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
