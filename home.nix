@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ./zsh.nix
+    ./settings/zsh.nix
   ];
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
@@ -25,6 +25,7 @@
     # # "Hello, world!" when run.
     # pkgs.hello
     pkgs.zsh
+    pkgs.starship
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
