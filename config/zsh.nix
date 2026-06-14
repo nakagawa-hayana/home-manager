@@ -8,6 +8,7 @@
 		
 		initContent = ''
 			source ~/.envfile	
+			eval "$(direnv hook zsh)"
 		'';
 	};
 }
