@@ -4,6 +4,7 @@
   imports = [
     ./config/zsh.nix
     ./config/starship.nix
+    ./config/helix.nix
   ];
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
