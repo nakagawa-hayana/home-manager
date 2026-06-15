@@ -32,6 +32,7 @@
     pkgs.helix
     pkgs.lsd
     pkgs.direnv
+    pkgs.gh
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
